@@ -1,0 +1,31 @@
+.font-time{
+	font-family: "Times New Roman";
+}
+.glyphicon-menu-hamburger{
+	font-size: 3vh;
+}
+body{
+	height: 100vh;
+}
+.nav-item:hover{
+	background-color: #BB0C0C;
+}
+.active{
+	background-color: #BB0C0C;
+}
+#btn-drop{
+	display: none;
+}
+@media screen and (max-width: 600px){
+	#left-pane{
+		display: none;
+	}
+	#btn-drop{
+		display: block;
+	}
+}
+@media screen and (max-width: 600px){
+	#left-pane-responsive{
+		display: block;
+	}
+}

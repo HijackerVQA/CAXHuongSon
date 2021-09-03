@@ -1,0 +1,1 @@
+<script src="vendor/common.js"></script>
