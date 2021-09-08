@@ -17,11 +17,11 @@ public class CrimeSearch extends HttpServlet {
     }
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String crime_list = request.getParameter("crime[]");
+		String crime_list = request.getParameter("crime");
 		//String pass = request.getParameter("pass");
 		
 		RequestDispatcher rd = request.getRequestDispatcher("/views/result.jsp");
-		request.setAttribute("crime", crime_list);
+		request.setAttribute("crimes", crime_list);
 		rd.forward(request, response);
 	}
 
