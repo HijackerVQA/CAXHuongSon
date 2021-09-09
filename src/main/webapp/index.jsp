@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <title>Công an xã Hương Sơn</title>
+<meta  name="viewport" content="width=device-width, initial-scale=1.0">
 <%@ include file="common/header.jsp" %>
 </head>
 <body>
@@ -11,7 +11,7 @@
 		<!--Header Page-->
 		<div class="header bg-success d-flex">
 			<div id="btn-drop" class="m-auto"><span class="m-auto glyphicon glyphicon-menu-hamburger rounded border p-1 border-dark"></span></div>
-			<div class="col-xl-1 col-2 d-flex align-items-center"><a class="m-auto" href="/trangchu"><img src="pic.png" class="img-fluid"></a></div>
+			<div class="col-xl-1 col-2 d-flex align-items-center"><a class="m-auto" href="/trangchu"><img src="pic/pic.png" class="img-fluid"></a></div>
 			<div class="col-xl-3 col-8 d-flex align-items-center">
 				<div>
 					<p class="font-time text-white m-0 d-flex justify-content-center">CÔNG AN HUYỆN MỸ ĐỨC</p>
@@ -22,21 +22,7 @@
 		</div>
 		<!--Body Page-->
 		<div id="main-pane" class="d-flex">
-			<div id="left-pane" class="col-lg-2 bg-success col-12">
-				<nav class="navbar">
-					<ul class="navbar-nav w-100">
-						<li class="nav-item">
-							<a class="nav-link text-white font-time" href="#"><span class="glyphicon glyphicon-info-sign"></span> TIN TỨC</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-time border-top" href="#"><span class="glyphicon glyphicon-book"></span> CÔNG VĂN</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-time border-top active" href="#"><span class="glyphicon glyphicon-search"></span> TRA CỨU TA,TS</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+			<%@ include file="common/menu.jsp"%>
 			<div id="right-pane" class="col-lg-10 col-12">
 				<h3 class="d-flex justify-content-center font-weight-bold font-time">TRA CỨU TA,TS</h3>
 				<form action="search" method="post">
