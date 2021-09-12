@@ -1,1 +1,0 @@
-web: java -jar target/crimesearch-1.0.jar
