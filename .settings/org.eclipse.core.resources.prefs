@@ -1,2 +1,10 @@
 eclipse.preferences.version=1
+encoding//src/main/java/com/caxhuongson/Search.java=UTF-8
+encoding//src/main/java/com/caxhuongson/api/SubmitAccount.java=UTF-8
+encoding//src/main/java/com/caxhuongson/api/Suspects.java=UTF-8
+encoding//src/main/webapp/common/header.jsp=UTF-8
 encoding//src/main/webapp/common/menu.jsp=UTF-8
+encoding//src/main/webapp/vendor/admin-search.js=UTF-8
+encoding//src/main/webapp/vendor/configdata.js=UTF-8
+encoding//src/main/webapp/vendor/search.js=UTF-8
+encoding//src/main/webapp/views/admin-search.jsp=UTF-8

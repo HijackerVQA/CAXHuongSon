@@ -1,25 +1,26 @@
-<!-- Latest compiled and CSS -->
-<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<!--Bootstrap 3 icon-->
-<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!--Select 2 library-->
-<link	href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"	rel="stylesheet" />
-<script	src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
-<!-- Datepicker -->
-<link href='bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css' rel='stylesheet' type='text/css'>
-<script src='bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js' type='text/javascript'></script>
-
-<!--Common Script-->
-<link rel="stylesheet" href="./vendor/common.css">
+<div class="header bg-success d-flex flex-wrap">
+	<div id="btn-drop" class="m-auto">
+		<i class="material-icons">&#xe241;</i>
+	</div>
+	<div class="col-xl-1 col-2 d-flex align-items-center">
+		<a class="m-auto" href="/trangchu"><img src="pic/pic.png"
+			class="img-fluid"></a>
+	</div>
+	<div class="col-xl-3 col-9 d-flex align-items-center">
+		<div>
+			<p class="text-white m-0 d-flex justify-content-center">CÔNG AN HUYỆN MỸ ĐỨC</p>
+			<p class="text-white m-0 font-weight-bold d-flex justify-content-center">CÔNG AN XÃ HƯƠNG SƠN</p>
+		</div>
+	</div>
+	<div class="col-xl-8 col-12 d-flex align-items-end">
+		<div class="d-flex justify-content-end w-100 dropdown">
+			<button type="button" class="btn btn-success dropdown-toggle d-flex align-items-center" data-toggle="dropdown">
+				<i class="material-icons">account_box </i>
+				<div id="accountname">: ${accountname}</div>
+			</button>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="login">Đăng xuất</a>
+			</div>
+		</div>
+	</div>
+</div>

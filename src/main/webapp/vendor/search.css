@@ -1,0 +1,81 @@
+.card-body{
+	margin-left: 25%;
+}
+.sticky-column{
+	position: sticky;
+	right: 0;
+}
+.profile-pic{
+	width:  25%;
+	max-height: 230px;
+}
+.profile{
+	background-color: LightCyan;
+	border: 5px solid lightgrey;
+	max-height: 230px;
+	overflow: scroll;
+}
+.profile p{
+	font-size: 10pt;
+}
+::placeholder {
+	font-family: "Times New Roman";
+}
+#right-pane{
+	overflow: scroll;
+}
+#loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    z-index: 1;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #00e676;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50%;
+    top: 50vh;
+}
+
+.dot1 {
+    left: 0px;
+    -webkit-animation: dot-jump 0.5s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+    animation: dot-jump 0.5s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+}
+
+.dot2 {
+    left: 20px;
+    -webkit-animation: dot-jump 0.5s 0.2s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+    animation: dot-jump 0.5s 0.2s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+}
+
+.dot3 {
+    left: 40px;
+    -webkit-animation: dot-jump 0.5s 0.4s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+    animation: dot-jump 0.5s 0.4s cubic-bezier(0.77, 0.47, 0.64, 0.28) alternate infinite;
+}
+@-webkit-keyframes dot-jump {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes dot-jump {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}

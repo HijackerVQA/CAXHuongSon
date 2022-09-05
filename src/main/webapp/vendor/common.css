@@ -1,8 +1,9 @@
-.font-time{
+*{
 	font-family: "Times New Roman";
 }
-.glyphicon-menu-hamburger{
+.material-icons{
 	font-size: 3vh;
+	cursor: pointer;
 }
 body{
 	height: 100vh;
